@@ -33,7 +33,8 @@ func checkFiles(dir_path string, pattern string) {
 func checkFile(file_path string, pattern string) {
 	file_content, err := os.ReadFile(file_path); check(err)
 
-	// This pattern matching part is not that easy.
+	// This pattern matching part is not that easy. (if i made
+	// it from scratch though)
 	// Given the pattern includes regex this program
 	// should parse/convert those regex and match accordingly
 	// (maybe one-liner) not sure.
